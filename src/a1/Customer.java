@@ -6,8 +6,9 @@ public class Customer {
 	String lastName;
 	int totalItems;
 	Item[] shoppingCart;
-	double totalSpent;
+	double totalSpent; 
 	
+	//constructor
 	public Customer (String firstName, String lastName, int totalItems) {
 		this.firstName = firstName;
 		this.lastName = lastName;

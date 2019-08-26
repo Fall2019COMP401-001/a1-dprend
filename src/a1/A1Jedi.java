@@ -61,6 +61,8 @@ public class A1Jedi {
 		}
 	}
 	
+	// helper functions
+	
 	static void toInventory (Item item, Item[] inventory) {
 		for (int i = 0; i < inventory.length; i++) {
 			if (inventory[i].name.contentEquals(item.name)) {

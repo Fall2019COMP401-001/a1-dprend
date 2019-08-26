@@ -63,6 +63,8 @@ public class A1Adept {
 		
 	}
 	
+	// helper functions
+	
 	static void findPrice (Item[] inventory, Item item) {
 		for (int i = 0; i < inventory.length; i++) {
 			if (inventory[i].name.contentEquals(item.name)) {

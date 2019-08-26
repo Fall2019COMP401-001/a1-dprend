@@ -7,6 +7,7 @@ public class Item {
 	double cost;
 	int totalOrders;
 	
+	//constructor
 	public Item (int amount, String name, double cost) {
 		this.amount = amount;
 		this.name = name;
